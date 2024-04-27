@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "502760001840",
+    "project_id": "team7-390-db",
+    "storage_bucket": "team7-390-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502760001840:android:9817ba70356cda214bb8f5",
+        "android_client_info": {
+          "package_name": "com.example.team7_390_w2024"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuDqeggAiaI0wqPDWE7Le3EXLWdSKBFDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

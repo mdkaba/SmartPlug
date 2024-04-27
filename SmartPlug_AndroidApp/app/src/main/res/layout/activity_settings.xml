@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/settingsToolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/setDataViewSettingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_data_view_settings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settingsToolbar"
+        app:layout_constraintVertical_bias="0.120000005" />
+
+    <LinearLayout
+        android:id="@+id/presentPowerDrawLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setDataViewSettingsButton"
+        app:layout_constraintVertical_bias="0.32999998">
+
+        <CheckBox
+            android:id="@+id/presentPowerDrawButton"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/present_power_draw"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/presentCurrentDrawLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/presentPowerDrawLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setDataViewSettingsButton"
+        app:layout_constraintVertical_bias="1.0">
+
+        <CheckBox
+            android:id="@+id/presentCurrentDrawButton"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/present_current_draw"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/powerDataLogLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/presentPowerDrawLayout"
+        app:layout_constraintVertical_bias="0.0">
+
+        <CheckBox
+            android:id="@+id/powerDataLogButton"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/power_data_log"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/currentDataLogLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/powerDataLogLayout"
+        app:layout_constraintVertical_bias="0.0">
+
+        <CheckBox
+            android:id="@+id/currentDataLogButton"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/current_data_log"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/plugStatusLayout"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="65dp"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/currentDataLogLayout"-->
+<!--        app:layout_constraintVertical_bias="0.0">-->
+
+<!--        <CheckBox-->
+<!--            android:id="@+id/plugStatusButton"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="fill_parent"-->
+<!--            android:text="@string/plug_status"-->
+<!--            android:textSize="16sp" />-->
+<!--    </LinearLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

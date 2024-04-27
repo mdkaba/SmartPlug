@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">team7_390_W2024</string>
+    <string name="settings">Settings</string>
+    <string name="view_devices">View Devices</string>
+    <string name="welcome_to_smartplug">Welcome to SmartPlug</string>
+    <string name="plug_status">Plug Status</string>
+    <string name="current_data_log">Current Data Log</string>
+    <string name="power_data_log">Power Data Log</string>
+    <string name="present_current_draw">Present Current Draw</string>
+    <string name="present_power_draw">Present Power Draw</string>
+    <string name="set_data_view_settings">Set Data View Settings</string>
+    <string name="devices">Devices</string>
+    <string name="scanning_ble">Scanning BLE…</string>
+    <string name="scan_for_device">Scan for Device</string>
+    <string name="add_new_device">Add New Device</string>
+    <string name="data_log">Data Log</string>
+    <string name="data">Data</string>
+    <string name="timestamp">Timestamp</string>
+    <string name="refresh">Refresh</string>
+    <string name="no_devices_found">No Devices Found</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="wifi_ssid">WiFi SSID</string>
+    <string name="wifi_password">WiFi Password</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="mac_address">"MAC Address: "</string>
+    <string name="please_enable_ble">Please enable BLE</string>
+    <string name="plug_off">Plug OFF</string>
+    <string name="plug_on">Plug ON</string>
+    <string name="plug_data">Plug Data</string>
+    <string name="delete_profile">Delete Profile</string>
+    <string name="character_list">1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM-_</string>
+</resources>
